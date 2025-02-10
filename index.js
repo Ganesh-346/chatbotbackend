@@ -19,6 +19,8 @@ if (!API_KEY) {
   process.exit(1);
 }
 
+console.log(API_KEY);
+
 console.log("API Key loaded:", API_KEY);
 
 app.post("/chat", async (req, res) => {
